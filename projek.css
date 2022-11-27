@@ -1,0 +1,137 @@
+@font-face {
+    font-family: SweetHipster;
+    src: url(fonts/SweetHispter.ttf);
+}
+
+@font-face {
+    font-family: Arvo-Bold;
+    src: url(fonts/Arvo-Bold.ttf);
+}
+
+@font-face {
+    font-family: Arvo-Regular;
+    src: url(fonts/Arvo-Regular.ttf);
+}
+
+@font-face {
+    font-family: DarlingtonDemo;
+    src: url(fonts/DarlingtonDemo.ttf);
+}
+
+@font-face {
+    font-family: Calligrapher;
+    src: url(fonts/Calligrapher.ttf);
+}
+
+body{
+    font: 30/28px Helvetica ;
+    background-color: #b4947e;
+    color: #EEEEEE;
+}
+
+.header{
+    padding: 10px;
+    text-align: right;
+    padding-bottom: 18px;
+}
+
+.header li{
+    padding-right: 50px;
+    display: inline;
+}
+
+.header a{
+    text-decoration: none;
+    font-size: 40px;
+    font-family: SweetHipster;
+    margin-top: 10px;
+    color: #EEEEEE;
+    -webkit-text-stroke:black;
+}
+
+.header a:hover{
+    color: #FF7D7D;
+    border-radius: 20px;
+    padding: 8px;
+}
+
+
+.header h1{
+    font-size: 80px;
+    font-weight: bold;
+    padding-left: 20px;
+    font-family: Calligrapher;
+    float: left;
+    margin: -10px;
+    color: #EEEEEE;
+    font-weight: 200;
+}
+
+.container{
+    width: 100%;
+    margin: auto;
+    background-color: #153462;
+}
+
+.hero{
+    background-image: url(img/bg1.jpg);
+    height: 600px;
+    background-size: cover;
+    border-top: 10px solid #3E6D9C;
+    border-bottom: 10px solid #624F82;
+    background-position: 0 -240px;
+}
+
+.penulis{
+    font-size: 40px;
+    font-family: DarlingtonDemo;
+    font-weight: 550;
+    text-align: center;
+    color: #FDF0E0;
+    padding-bottom: 8px;
+}
+
+.penulis a{
+    text-decoration: none;
+    color: #FF7D7D;
+}
+
+.penulis a:hover{
+    color: #E6CBA8;
+}
+
+
+.content{
+    padding: 10px;
+    font-family: Arvo-Reguler;
+}
+
+.content h2{
+    font-size: 40px;
+    text-align: center;
+    font-weight: bold;
+    font-family: SweetHipster;
+    font-weight: 300;
+    -webkit-text-stroke:black;
+    margin: 18px;
+}
+
+.content p{
+    font-size: 16px;
+    text-align: center;
+}
+
+.footer{
+    background-color: #775f9c;
+    height: 45px;
+    border: 2px solid #FFCACA;
+}
+
+.footer .copy{
+    text-align: center;
+    padding: 15px;
+    font-weight: bold;
+    font-size: 10px;
+    font-family: Arvo-Bold;
+    -webkit-text-stroke:black;
+}
